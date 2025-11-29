@@ -1,0 +1,509 @@
+[
+  {
+    "employee_id": "EMP_0009",
+    "name": "Hugo Vincent",
+    "department": "HR",
+    "job_level": "Mid",
+    "risk_category": "Haut Risque",
+    "risk_score": 0.15507517277495747,
+    "prediction": false,
+    "actual_left": true,
+    "criteria_analysis": {
+      "age": {
+        "value": 63.0,
+        "importance": 0.04809811149388184,
+        "contribution": 3.030181024114556
+      },
+      "tenure_years": {
+        "value": 5.6974674880219025,
+        "importance": 0.04387235857889899,
+        "contribution": 0.2499613366261158
+      },
+      "salary_vs_avg_level": {
+        "value": 0.9272828844445408,
+        "importance": 0.053527445608392045,
+        "contribution": 0.04963508416069804
+      },
+      "performance_rating_mean": {
+        "value": 3.757,
+        "importance": 0.04755514549624698,
+        "contribution": 0.1786646816293999
+      },
+      "training_intensity": {
+        "value": 10.349346524834418,
+        "importance": 0.046563748825957756,
+        "contribution": 0.4819043720951886
+      },
+      "training_quality": {
+        "value": 81.69,
+        "importance": 0.0498426048979571,
+        "contribution": 4.071642394114115
+      },
+      "training_frequency": {
+        "value": 0.517467326241721,
+        "importance": 0.05170209673352877,
+        "contribution": 0.02675414575778995
+      },
+      "overtime_intensity": {
+        "value": 5.34026280681456,
+        "importance": 0.02960638453215004,
+        "contribution": 0.15810587416129074
+      },
+      "overtime_frequency": {
+        "value": 1.8973801962196435,
+        "importance": 0.0392501115841448,
+        "contribution": 0.07447238441916756
+      },
+      "workload_indicator": {
+        "value": 58.74289087496016,
+        "importance": 0.04006987912802582,
+        "contribution": 2.353820536990465
+      },
+      "absence_rate": {
+        "value": 0.051908711358706935,
+        "importance": 0.04323866441496108,
+        "contribution": 0.0022444633506522077
+      },
+      "absence_frequency": {
+        "value": 1.5524019787251628,
+        "importance": 0.042654138235249904,
+        "contribution": 0.06621636859721858
+      },
+      "satisfaction_score": {
+        "value": 1.601728363801054,
+        "importance": 0.04323537591870117,
+        "contribution": 0.06925132792858471
+      },
+      "manager_relationship": {
+        "value": 1.9810456443206466,
+        "importance": 0.04931327660374677,
+        "contribution": 0.09769185182303179
+      },
+      "salary_vs_market": {
+        "value": 1.0797930749940803,
+        "importance": 0.048858629092386544,
+        "contribution": 0.05275720934766329
+      },
+      "career_progression": {
+        "value": 2.713079756200906,
+        "importance": 0.05400475062659656,
+        "contribution": 0.1465191956636973
+      },
+      "promotion_likelihood": {
+        "value": 30.83070785119421,
+        "importance": 0.042877983946521786,
+        "contribution": 1.3219585963034084
+      },
+      "stress_indicator": {
+        "value": 5.392171518173267,
+        "importance": 0.03253734609414044,
+        "contribution": 0.17544695088577028
+      },
+      "work_life_balance": {
+        "value": 0.1564413591151222,
+        "importance": 0.034727938292940595,
+        "contribution": 0.005432885865813723
+      },
+      "salary_gap_vs_market": {
+        "value": 0.07979307499408028,
+        "importance": 0.04828280203684388,
+        "contribution": 0.003852633243850216
+      },
+      "salary_competitiveness": {
+        "value": 0.0,
+        "importance": 0.0041444282942301874,
+        "contribution": 0.0
+      },
+      "tenure_risk_factor": {
+        "value": 0.1,
+        "importance": 0.005975918379189162,
+        "contribution": 0.0005975918379189163
+      },
+      "salary_satisfaction": {
+        "value": 0.0,
+        "importance": 0.03743969729311098,
+        "contribution": 0.0
+      },
+      "career_stagnation": {
+        "value": 0.04170047304055955,
+        "importance": 0.04401996711298858,
+        "contribution": 0.0018356534518414983
+      },
+      "external_attractiveness": {
+        "value": 0.1687594680521628,
+        "importance": 0.018601196779208188,
+        "contribution": 0.003139128073592778
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "training_quality",
+        "value": 81.69,
+        "impact": "Augmente le risque",
+        "contribution": 4.071642394114115
+      },
+      {
+        "factor": "age",
+        "value": 63.0,
+        "impact": "Augmente le risque",
+        "contribution": 3.030181024114556
+      },
+      {
+        "factor": "workload_indicator",
+        "value": 58.74289087496016,
+        "impact": "Augmente le risque",
+        "contribution": 2.353820536990465
+      },
+      {
+        "factor": "promotion_likelihood",
+        "value": 30.83070785119421,
+        "impact": "Augmente le risque",
+        "contribution": 1.3219585963034084
+      },
+      {
+        "factor": "training_intensity",
+        "value": 10.349346524834418,
+        "impact": "Augmente le risque",
+        "contribution": 0.4819043720951886
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_0001",
+    "name": "Manon Roux",
+    "department": "HR",
+    "job_level": "Lead",
+    "risk_category": "Faible Risque",
+    "risk_score": 0.11259593848005844,
+    "prediction": false,
+    "actual_left": false,
+    "criteria_analysis": {
+      "age": {
+        "value": 60.0,
+        "importance": 0.04809811149388184,
+        "contribution": 2.88588668963291
+      },
+      "tenure_years": {
+        "value": 9.69472963723477,
+        "importance": 0.04387235857889899,
+        "contribution": 0.4253306549702432
+      },
+      "salary_vs_avg_level": {
+        "value": 1.0146731518653922,
+        "importance": 0.053527445608392045,
+        "contribution": 0.0543128619467705
+      },
+      "performance_rating_mean": {
+        "value": 3.394,
+        "importance": 0.04755514549624698,
+        "contribution": 0.16140216381426226
+      },
+      "training_intensity": {
+        "value": 9.494902201941287,
+        "importance": 0.046563748825957756,
+        "contribution": 0.4421182412582273
+      },
+      "training_quality": {
+        "value": 82.08,
+        "importance": 0.0498426048979571,
+        "contribution": 4.091081010024319
+      },
+      "training_frequency": {
+        "value": 0.5104786130075961,
+        "importance": 0.05170209673352877,
+        "contribution": 0.02639281463011633
+      },
+      "overtime_intensity": {
+        "value": 21.27470667570457,
+        "importance": 0.02960638453215004,
+        "contribution": 0.629867146649609
+      },
+      "overtime_frequency": {
+        "value": 4.900594684872922,
+        "importance": 0.0392501115841448,
+        "contribution": 0.1923488882099291
+      },
+      "workload_indicator": {
+        "value": 1021.1859204338194,
+        "importance": 0.04006987912802582,
+        "contribution": 40.91879639902494
+      },
+      "absence_rate": {
+        "value": 0.013560945066067259,
+        "importance": 0.04323866441496108,
+        "contribution": 0.0005863571528614044
+      },
+      "absence_frequency": {
+        "value": 0.5104786130075961,
+        "importance": 0.042654138235249904,
+        "contribution": 0.021774025325364644
+      },
+      "satisfaction_score": {
+        "value": 1.597381893141728,
+        "importance": 0.04323537591870117,
+        "contribution": 0.06906340663570916
+      },
+      "manager_relationship": {
+        "value": 2.1272195274669663,
+        "importance": 0.04931327660374677,
+        "contribution": 0.10490016495487
+      },
+      "salary_vs_market": {
+        "value": 1.1793253352178954,
+        "importance": 0.048858629092386544,
+        "contribution": 0.05762021913266558
+      },
+      "career_progression": {
+        "value": 2.3645682042036027,
+        "importance": 0.05400475062659656,
+        "contribution": 0.1276979162075948
+      },
+      "promotion_likelihood": {
+        "value": 26.006138345224706,
+        "importance": 0.042877983946521786,
+        "contribution": 1.1150907824775695
+      },
+      "stress_indicator": {
+        "value": 21.28826762077064,
+        "importance": 0.03253734609414044,
+        "contribution": 0.692663731321698
+      },
+      "work_life_balance": {
+        "value": 0.044866654376856586,
+        "importance": 0.034727938292940595,
+        "contribution": 0.0015581264046101687
+      },
+      "salary_gap_vs_market": {
+        "value": 0.1793253352178954,
+        "importance": 0.04828280203684388,
+        "contribution": 0.008658329660516311
+      },
+      "salary_competitiveness": {
+        "value": 1.0,
+        "importance": 0.0041444282942301874,
+        "contribution": 0.0041444282942301874
+      },
+      "tenure_risk_factor": {
+        "value": 0.2,
+        "importance": 0.005975918379189162,
+        "contribution": 0.0011951836758378326
+      },
+      "salary_satisfaction": {
+        "value": 1.1793253352178954,
+        "importance": 0.03743969729311098,
+        "contribution": 0.04415358356065464
+      },
+      "career_stagnation": {
+        "value": 0.07850444454328877,
+        "importance": 0.04401996711298858,
+        "contribution": 0.0034557630670190072
+      },
+      "external_attractiveness": {
+        "value": 0.15470018616607784,
+        "importance": 0.018601196779208188,
+        "contribution": 0.0028776086046553542
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "workload_indicator",
+        "value": 1021.1859204338194,
+        "impact": "Augmente le risque",
+        "contribution": 40.91879639902494
+      },
+      {
+        "factor": "training_quality",
+        "value": 82.08,
+        "impact": "Augmente le risque",
+        "contribution": 4.091081010024319
+      },
+      {
+        "factor": "age",
+        "value": 60.0,
+        "impact": "Augmente le risque",
+        "contribution": 2.88588668963291
+      },
+      {
+        "factor": "promotion_likelihood",
+        "value": 26.006138345224706,
+        "impact": "Augmente le risque",
+        "contribution": 1.1150907824775695
+      },
+      {
+        "factor": "stress_indicator",
+        "value": 21.28826762077064,
+        "impact": "Augmente le risque",
+        "contribution": 0.692663731321698
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_0501",
+    "name": "Camille Lefebvre",
+    "department": "Marketing",
+    "job_level": "Junior",
+    "risk_category": "Risque Moyen",
+    "risk_score": 0.08664453208658529,
+    "prediction": false,
+    "actual_left": true,
+    "criteria_analysis": {
+      "age": {
+        "value": 49.0,
+        "importance": 0.04809811149388184,
+        "contribution": 2.35680746320021
+      },
+      "tenure_years": {
+        "value": 9.371663244353183,
+        "importance": 0.04387235857889899,
+        "contribution": 0.4111569703369507
+      },
+      "salary_vs_avg_level": {
+        "value": 1.1688189945233398,
+        "importance": 0.053527445608392045,
+        "contribution": 0.06256389515540355
+      },
+      "performance_rating_mean": {
+        "value": 3.43,
+        "importance": 0.04755514549624698,
+        "contribution": 0.16311414905212715
+      },
+      "training_intensity": {
+        "value": 13.408415895245735,
+        "importance": 0.046563748825957756,
+        "contribution": 0.6243461099002019
+      },
+      "training_quality": {
+        "value": 85.22,
+        "importance": 0.0498426048979571,
+        "contribution": 4.247586789403904
+      },
+      "training_frequency": {
+        "value": 0.5278903895766037,
+        "importance": 0.05170209673352877,
+        "contribution": 0.027293039986589752
+      },
+      "overtime_intensity": {
+        "value": 15.905337437943071,
+        "importance": 0.02960638453215004,
+        "contribution": 0.4708995363013447
+      },
+      "overtime_frequency": {
+        "value": 4.645435428274113,
+        "importance": 0.0392501115841448,
+        "contribution": 0.18233385891669843
+      },
+      "workload_indicator": {
+        "value": 699.8348472694952,
+        "importance": 0.04006987912802582,
+        "contribution": 28.042297739669085
+      },
+      "absence_rate": {
+        "value": 0.036824262893623,
+        "importance": 0.04323866441496108,
+        "contribution": 0.0015922319455856685
+      },
+      "absence_frequency": {
+        "value": 1.1613588570685283,
+        "importance": 0.042654138235249904,
+        "contribution": 0.04953676123013284
+      },
+      "satisfaction_score": {
+        "value": 1.6374300504734722,
+        "importance": 0.04323537591870117,
+        "contribution": 0.0707949037727984
+      },
+      "manager_relationship": {
+        "value": 2.0715878685531885,
+        "importance": 0.04931327660374677,
+        "contribution": 0.1021567855709296
+      },
+      "salary_vs_market": {
+        "value": 1.295610603797853,
+        "importance": 0.048858629092386544,
+        "contribution": 0.06330175793912228
+      },
+      "career_progression": {
+        "value": 8.519693858502892,
+        "importance": 0.05400475062659656,
+        "contribution": 0.4601039422433949
+      },
+      "promotion_likelihood": {
+        "value": 35.97911478780324,
+        "importance": 0.042877983946521786,
+        "contribution": 1.542711906281492
+      },
+      "stress_indicator": {
+        "value": 15.942161700836694,
+        "importance": 0.03253734609414044,
+        "contribution": 0.5187156327488741
+      },
+      "work_life_balance": {
+        "value": 0.05902434516078399,
+        "importance": 0.034727938292940595,
+        "contribution": 0.002049793816524933
+      },
+      "salary_gap_vs_market": {
+        "value": 0.295610603797853,
+        "importance": 0.04828280203684388,
+        "contribution": 0.014272908263163625
+      },
+      "salary_competitiveness": {
+        "value": 1.0,
+        "importance": 0.0041444282942301874,
+        "contribution": 0.0041444282942301874
+      },
+      "tenure_risk_factor": {
+        "value": 0.2,
+        "importance": 0.005975918379189162,
+        "contribution": 0.0011951836758378326
+      },
+      "salary_satisfaction": {
+        "value": 1.295610603797853,
+        "importance": 0.03743969729311098,
+        "contribution": 0.04850726881593636
+      },
+      "career_stagnation": {
+        "value": 0.14963440969644762,
+        "importance": 0.04401996711298858,
+        "contribution": 0.006586901793809083
+      },
+      "external_attractiveness": {
+        "value": 0.043192905893877614,
+        "importance": 0.018601196779208188,
+        "contribution": 0.0008034397419978387
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "workload_indicator",
+        "value": 699.8348472694952,
+        "impact": "Augmente le risque",
+        "contribution": 28.042297739669085
+      },
+      {
+        "factor": "training_quality",
+        "value": 85.22,
+        "impact": "Augmente le risque",
+        "contribution": 4.247586789403904
+      },
+      {
+        "factor": "age",
+        "value": 49.0,
+        "impact": "Augmente le risque",
+        "contribution": 2.35680746320021
+      },
+      {
+        "factor": "promotion_likelihood",
+        "value": 35.97911478780324,
+        "impact": "Augmente le risque",
+        "contribution": 1.542711906281492
+      },
+      {
+        "factor": "training_intensity",
+        "value": 13.408415895245735,
+        "impact": "Augmente le risque",
+        "contribution": 0.6243461099002019
+      }
+    ]
+  }
+]
