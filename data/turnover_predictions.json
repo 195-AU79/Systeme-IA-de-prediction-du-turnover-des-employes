@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-17T17:33:04.446327",
+  "total_employees": 1470,
+  "employees_leaving": 709,
+  "percentage_leaving": 48.2312925170068,
+  "risk_distribution": {
+    "high_risk": 6,
+    "medium_risk": 771,
+    "low_risk": 693
+  },
+  "by_department": {
+    "Human Resources": {
+      "Départs_prévus": 42,
+      "Total": 63,
+      "Risque_moyen": 0.46,
+      "Pourcentage": 66.7
+    },
+    "Research & Development": {
+      "Départs_prévus": 413,
+      "Total": 961,
+      "Risque_moyen": 0.41,
+      "Pourcentage": 43.0
+    },
+    "Sales": {
+      "Départs_prévus": 254,
+      "Total": 446,
+      "Risque_moyen": 0.42,
+      "Pourcentage": 57.0
+    }
+  }
+}

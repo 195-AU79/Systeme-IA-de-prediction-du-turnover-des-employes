@@ -1,0 +1,605 @@
+{
+  "analyses": [
+    {
+      "employee_id": "EMP_0001",
+      "analysis": {
+        "risk_score": 0.5764222944995266,
+        "risk_level": "Moyen",
+        "will_leave": true,
+        "confidence": 0.5764222944995266,
+        "key_factors": [
+          {
+            "factor": "stock_option_level",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "years_with_curr_manager",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "total_working_years",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "salary",
+            "value": 45000.0,
+            "impact": "Augmente le risque",
+            "contribution": 2527.9465925508944
+          },
+          {
+            "factor": "age",
+            "value": 28.0,
+            "impact": "Augmente le risque",
+            "contribution": 0.140614950518473
+          }
+        ],
+        "criteria_analysis": {
+          "stock_option_level": {
+            "value": NaN,
+            "importance": 0.0587730479217391,
+            "contribution": NaN
+          },
+          "years_with_curr_manager": {
+            "value": NaN,
+            "importance": 0.05780480827972835,
+            "contribution": NaN
+          },
+          "total_working_years": {
+            "value": NaN,
+            "importance": 0.05831259332950714,
+            "contribution": NaN
+          },
+          "age": {
+            "value": 28.0,
+            "importance": 0.005021962518516893,
+            "contribution": 0.140614950518473
+          },
+          "tenure_years": {
+            "value": 2.5,
+            "importance": 0.04637804110006607,
+            "contribution": 0.11594510275016517
+          },
+          "salary": {
+            "value": 45000.0,
+            "importance": 0.05617659094557543,
+            "contribution": 2527.9465925508944
+          },
+          "marital_status_Single": {
+            "value": 0.0,
+            "importance": 0.043416262161693246,
+            "contribution": 0.0
+          },
+          "environment_satisfaction": {
+            "value": 0.0,
+            "importance": 0.04445026611334831,
+            "contribution": 0.0
+          },
+          "num_companies_worked": {
+            "value": 0.0,
+            "importance": 0.06620017860705579,
+            "contribution": 0.0
+          },
+          "overtime_No": {
+            "value": 0.0,
+            "importance": 0.05281376773349318,
+            "contribution": 0.0
+          },
+          "overtime_Yes": {
+            "value": 0.0,
+            "importance": 0.05973343186398757,
+            "contribution": 0.0
+          },
+          "work_life_balance": {
+            "value": 0.2450855957650992,
+            "importance": 0.08416782422425281,
+            "contribution": 0.02062832134425315
+          },
+          "years_in_current_role": {
+            "value": 0.0,
+            "importance": 0.034433204586985636,
+            "contribution": 0.0
+          },
+          "relationship_satisfaction": {
+            "value": 0.0,
+            "importance": 0.02480980404277506,
+            "contribution": 0.0
+          },
+          "job_level_1": {
+            "value": 0.0,
+            "importance": 0.041787860815368984,
+            "contribution": 0.0
+          },
+          "education": {
+            "value": 0.0,
+            "importance": 0.011924094462409728,
+            "contribution": 0.0
+          },
+          "department_Research & Development": {
+            "value": 0.0,
+            "importance": 0.050400645458255504,
+            "contribution": 0.0
+          },
+          "job_role_Research Scientist": {
+            "value": 0.0,
+            "importance": 0.04797998142060804,
+            "contribution": 0.0
+          },
+          "gender_Female": {
+            "value": 0.0,
+            "importance": 0.05717406467395242,
+            "contribution": 0.0
+          },
+          "business_travel_Travel_Rarely": {
+            "value": 0.0,
+            "importance": 0.0007306489552214595,
+            "contribution": 0.0
+          },
+          "education_field_Life Sciences": {
+            "value": 0.0,
+            "importance": 0.014607961078083227,
+            "contribution": 0.0
+          },
+          "education_field_Medical": {
+            "value": 0.0,
+            "importance": 0.01429680956548356,
+            "contribution": 0.0
+          },
+          "location_Tres_Loin": {
+            "value": 0.0,
+            "importance": 0.0012247874889301194,
+            "contribution": 0.0
+          },
+          "business_travel_Non-Travel": {
+            "value": 0.0,
+            "importance": 0.00261683523231639,
+            "contribution": 0.0
+          },
+          "performance_rating": {
+            "value": 4.2,
+            "importance": 0.0016452408988841837,
+            "contribution": 0.006910011775313572
+          },
+          "job_role_Sales Representative": {
+            "value": 0.0,
+            "importance": 0.019736497651613408,
+            "contribution": 0.0
+          },
+          "education_field_Technical Degree": {
+            "value": 0.0,
+            "importance": 0.0035381965648387877,
+            "contribution": 0.0
+          },
+          "job_role_Research Director": {
+            "value": 0.0,
+            "importance": 0.018943583015186262,
+            "contribution": 0.0
+          },
+          "education_field_Other": {
+            "value": 0.0,
+            "importance": 0.005849237622155001,
+            "contribution": 0.0
+          },
+          "education_field_Human Resources": {
+            "value": 0.0,
+            "importance": 0.015051771667968446,
+            "contribution": 0.0
+          }
+        },
+        "recommendations": [
+          "Risque mod\u00e9r\u00e9 - Actions pr\u00e9ventives",
+          "Entretien de suivi mensuel",
+          "Plan de d\u00e9veloppement des comp\u00e9tences",
+          "Am\u00e9lioration de l'environnement de travail",
+          "Am\u00e9liorer la compensation (salary)"
+        ]
+      }
+    },
+    {
+      "employee_id": "EMP_0002",
+      "analysis": {
+        "risk_score": 0.5127716687160357,
+        "risk_level": "Moyen",
+        "will_leave": true,
+        "confidence": 0.5127716687160357,
+        "key_factors": [
+          {
+            "factor": "stock_option_level",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "years_with_curr_manager",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "total_working_years",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "salary",
+            "value": 65000.0,
+            "impact": "Augmente le risque",
+            "contribution": 3651.478411462403
+          },
+          {
+            "factor": "tenure_years",
+            "value": 8.0,
+            "impact": "Augmente le risque",
+            "contribution": 0.37102432880052855
+          }
+        ],
+        "criteria_analysis": {
+          "stock_option_level": {
+            "value": NaN,
+            "importance": 0.0587730479217391,
+            "contribution": NaN
+          },
+          "years_with_curr_manager": {
+            "value": NaN,
+            "importance": 0.05780480827972835,
+            "contribution": NaN
+          },
+          "total_working_years": {
+            "value": NaN,
+            "importance": 0.05831259332950714,
+            "contribution": NaN
+          },
+          "age": {
+            "value": 45.0,
+            "importance": 0.005021962518516893,
+            "contribution": 0.2259883133332602
+          },
+          "tenure_years": {
+            "value": 8.0,
+            "importance": 0.04637804110006607,
+            "contribution": 0.37102432880052855
+          },
+          "salary": {
+            "value": 65000.0,
+            "importance": 0.05617659094557543,
+            "contribution": 3651.478411462403
+          },
+          "marital_status_Single": {
+            "value": 0.0,
+            "importance": 0.043416262161693246,
+            "contribution": 0.0
+          },
+          "environment_satisfaction": {
+            "value": 0.0,
+            "importance": 0.04445026611334831,
+            "contribution": 0.0
+          },
+          "num_companies_worked": {
+            "value": 0.0,
+            "importance": 0.06620017860705579,
+            "contribution": 0.0
+          },
+          "overtime_No": {
+            "value": 0.0,
+            "importance": 0.05281376773349318,
+            "contribution": 0.0
+          },
+          "overtime_Yes": {
+            "value": 0.0,
+            "importance": 0.05973343186398757,
+            "contribution": 0.0
+          },
+          "work_life_balance": {
+            "value": 0.24454908997321959,
+            "importance": 0.08416782422425281,
+            "contribution": 0.020583164819066933
+          },
+          "years_in_current_role": {
+            "value": 0.0,
+            "importance": 0.034433204586985636,
+            "contribution": 0.0
+          },
+          "relationship_satisfaction": {
+            "value": 0.0,
+            "importance": 0.02480980404277506,
+            "contribution": 0.0
+          },
+          "job_level_1": {
+            "value": 0.0,
+            "importance": 0.041787860815368984,
+            "contribution": 0.0
+          },
+          "education": {
+            "value": 0.0,
+            "importance": 0.011924094462409728,
+            "contribution": 0.0
+          },
+          "department_Research & Development": {
+            "value": 0.0,
+            "importance": 0.050400645458255504,
+            "contribution": 0.0
+          },
+          "job_role_Research Scientist": {
+            "value": 0.0,
+            "importance": 0.04797998142060804,
+            "contribution": 0.0
+          },
+          "gender_Female": {
+            "value": 0.0,
+            "importance": 0.05717406467395242,
+            "contribution": 0.0
+          },
+          "business_travel_Travel_Rarely": {
+            "value": 0.0,
+            "importance": 0.0007306489552214595,
+            "contribution": 0.0
+          },
+          "education_field_Life Sciences": {
+            "value": 0.0,
+            "importance": 0.014607961078083227,
+            "contribution": 0.0
+          },
+          "education_field_Medical": {
+            "value": 0.0,
+            "importance": 0.01429680956548356,
+            "contribution": 0.0
+          },
+          "location_Tres_Loin": {
+            "value": 0.0,
+            "importance": 0.0012247874889301194,
+            "contribution": 0.0
+          },
+          "business_travel_Non-Travel": {
+            "value": 0.0,
+            "importance": 0.00261683523231639,
+            "contribution": 0.0
+          },
+          "performance_rating": {
+            "value": 3.8,
+            "importance": 0.0016452408988841837,
+            "contribution": 0.006251915415759898
+          },
+          "job_role_Sales Representative": {
+            "value": 0.0,
+            "importance": 0.019736497651613408,
+            "contribution": 0.0
+          },
+          "education_field_Technical Degree": {
+            "value": 0.0,
+            "importance": 0.0035381965648387877,
+            "contribution": 0.0
+          },
+          "job_role_Research Director": {
+            "value": 0.0,
+            "importance": 0.018943583015186262,
+            "contribution": 0.0
+          },
+          "education_field_Other": {
+            "value": 0.0,
+            "importance": 0.005849237622155001,
+            "contribution": 0.0
+          },
+          "education_field_Human Resources": {
+            "value": 0.0,
+            "importance": 0.015051771667968446,
+            "contribution": 0.0
+          }
+        },
+        "recommendations": [
+          "Risque mod\u00e9r\u00e9 - Actions pr\u00e9ventives",
+          "Entretien de suivi mensuel",
+          "Plan de d\u00e9veloppement des comp\u00e9tences",
+          "Am\u00e9lioration de l'environnement de travail",
+          "Am\u00e9liorer la compensation (salary)"
+        ]
+      }
+    },
+    {
+      "employee_id": "EMP_0003",
+      "analysis": {
+        "risk_score": 0.5128215894741507,
+        "risk_level": "Moyen",
+        "will_leave": true,
+        "confidence": 0.5128215894741507,
+        "key_factors": [
+          {
+            "factor": "stock_option_level",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "years_with_curr_manager",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "total_working_years",
+            "value": NaN,
+            "impact": "R\u00e9duit le risque",
+            "contribution": NaN
+          },
+          {
+            "factor": "salary",
+            "value": 75000.0,
+            "impact": "Augmente le risque",
+            "contribution": 4213.244320918157
+          },
+          {
+            "factor": "tenure_years",
+            "value": 5.5,
+            "impact": "Augmente le risque",
+            "contribution": 0.2550792260503634
+          }
+        ],
+        "criteria_analysis": {
+          "stock_option_level": {
+            "value": NaN,
+            "importance": 0.0587730479217391,
+            "contribution": NaN
+          },
+          "years_with_curr_manager": {
+            "value": NaN,
+            "importance": 0.05780480827972835,
+            "contribution": NaN
+          },
+          "total_working_years": {
+            "value": NaN,
+            "importance": 0.05831259332950714,
+            "contribution": NaN
+          },
+          "age": {
+            "value": 35.0,
+            "importance": 0.005021962518516893,
+            "contribution": 0.17576868814809127
+          },
+          "tenure_years": {
+            "value": 5.5,
+            "importance": 0.04637804110006607,
+            "contribution": 0.2550792260503634
+          },
+          "salary": {
+            "value": 75000.0,
+            "importance": 0.05617659094557543,
+            "contribution": 4213.244320918157
+          },
+          "marital_status_Single": {
+            "value": 0.0,
+            "importance": 0.043416262161693246,
+            "contribution": 0.0
+          },
+          "environment_satisfaction": {
+            "value": 0.0,
+            "importance": 0.04445026611334831,
+            "contribution": 0.0
+          },
+          "num_companies_worked": {
+            "value": 0.0,
+            "importance": 0.06620017860705579,
+            "contribution": 0.0
+          },
+          "overtime_No": {
+            "value": 0.0,
+            "importance": 0.05281376773349318,
+            "contribution": 0.0
+          },
+          "overtime_Yes": {
+            "value": 0.0,
+            "importance": 0.05973343186398757,
+            "contribution": 0.0
+          },
+          "work_life_balance": {
+            "value": 0.5280241112044805,
+            "importance": 0.08416782422425281,
+            "contribution": 0.04444264057802603
+          },
+          "years_in_current_role": {
+            "value": 0.0,
+            "importance": 0.034433204586985636,
+            "contribution": 0.0
+          },
+          "relationship_satisfaction": {
+            "value": 0.0,
+            "importance": 0.02480980404277506,
+            "contribution": 0.0
+          },
+          "job_level_1": {
+            "value": 0.0,
+            "importance": 0.041787860815368984,
+            "contribution": 0.0
+          },
+          "education": {
+            "value": 0.0,
+            "importance": 0.011924094462409728,
+            "contribution": 0.0
+          },
+          "department_Research & Development": {
+            "value": 0.0,
+            "importance": 0.050400645458255504,
+            "contribution": 0.0
+          },
+          "job_role_Research Scientist": {
+            "value": 0.0,
+            "importance": 0.04797998142060804,
+            "contribution": 0.0
+          },
+          "gender_Female": {
+            "value": 0.0,
+            "importance": 0.05717406467395242,
+            "contribution": 0.0
+          },
+          "business_travel_Travel_Rarely": {
+            "value": 0.0,
+            "importance": 0.0007306489552214595,
+            "contribution": 0.0
+          },
+          "education_field_Life Sciences": {
+            "value": 0.0,
+            "importance": 0.014607961078083227,
+            "contribution": 0.0
+          },
+          "education_field_Medical": {
+            "value": 0.0,
+            "importance": 0.01429680956548356,
+            "contribution": 0.0
+          },
+          "location_Tres_Loin": {
+            "value": 0.0,
+            "importance": 0.0012247874889301194,
+            "contribution": 0.0
+          },
+          "business_travel_Non-Travel": {
+            "value": 0.0,
+            "importance": 0.00261683523231639,
+            "contribution": 0.0
+          },
+          "performance_rating": {
+            "value": 4.8,
+            "importance": 0.0016452408988841837,
+            "contribution": 0.007897156314644082
+          },
+          "job_role_Sales Representative": {
+            "value": 0.0,
+            "importance": 0.019736497651613408,
+            "contribution": 0.0
+          },
+          "education_field_Technical Degree": {
+            "value": 0.0,
+            "importance": 0.0035381965648387877,
+            "contribution": 0.0
+          },
+          "job_role_Research Director": {
+            "value": 0.0,
+            "importance": 0.018943583015186262,
+            "contribution": 0.0
+          },
+          "education_field_Other": {
+            "value": 0.0,
+            "importance": 0.005849237622155001,
+            "contribution": 0.0
+          },
+          "education_field_Human Resources": {
+            "value": 0.0,
+            "importance": 0.015051771667968446,
+            "contribution": 0.0
+          }
+        },
+        "recommendations": [
+          "Risque mod\u00e9r\u00e9 - Actions pr\u00e9ventives",
+          "Entretien de suivi mensuel",
+          "Plan de d\u00e9veloppement des comp\u00e9tences",
+          "Am\u00e9lioration de l'environnement de travail",
+          "Am\u00e9liorer la compensation (salary)"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2025-12-17T17:44:00.657373"
+}

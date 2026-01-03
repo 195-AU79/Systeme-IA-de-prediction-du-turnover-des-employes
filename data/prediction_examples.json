@@ -1,0 +1,584 @@
+[
+  {
+    "employee_id": "EMP_0001",
+    "name": "Employ\u00e9 EMP_0001",
+    "department": "Sales",
+    "job_level": "2",
+    "risk_category": "Haut Risque",
+    "risk_score": 0.9528993388867469,
+    "prediction": true,
+    "actual_left": true,
+    "criteria_analysis": {
+      "age": {
+        "value": 41.0,
+        "importance": 0.06452137047204339,
+        "contribution": 2.6453761893537786
+      },
+      "salary": {
+        "value": 71916.0,
+        "importance": 0.06297652599927175,
+        "contribution": 4529.019843763627
+      },
+      "tenure_years": {
+        "value": 6.0,
+        "importance": 0.0655896707543584,
+        "contribution": 0.3935380245261504
+      },
+      "environment_satisfaction": {
+        "value": 2.0,
+        "importance": 0.061940702514479556,
+        "contribution": 0.12388140502895911
+      },
+      "years_in_current_role": {
+        "value": 4.0,
+        "importance": 0.052165909929172125,
+        "contribution": 0.2086636397166885
+      },
+      "years_with_curr_manager": {
+        "value": 5.0,
+        "importance": 0.07665530748491775,
+        "contribution": 0.3832765374245888
+      },
+      "total_working_years": {
+        "value": 8.0,
+        "importance": 0.06245704669968503,
+        "contribution": 0.4996563735974802
+      },
+      "percent_salary_hike": {
+        "value": 11.0,
+        "importance": 0.03419062691806729,
+        "contribution": 0.3760968960987402
+      },
+      "stock_option_level": {
+        "value": 0.0,
+        "importance": 0.07936771229590132,
+        "contribution": 0.0
+      },
+      "DailyRate": {
+        "value": 1102.0,
+        "importance": 0.04442128280858276,
+        "contribution": 48.95225365505821
+      },
+      "HourlyRate": {
+        "value": 94.0,
+        "importance": 0.039277387807116496,
+        "contribution": 3.6920744538689507
+      },
+      "MonthlyRate": {
+        "value": 19479.0,
+        "importance": 0.03714113623516728,
+        "contribution": 723.4721927248235
+      },
+      "department_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0007387767505056217,
+        "contribution": 0.0
+      },
+      "department_Research & Development": {
+        "value": 0.0,
+        "importance": 0.030965721734765653,
+        "contribution": 0.0
+      },
+      "job_level_1": {
+        "value": 0.0,
+        "importance": 0.054011618398024375,
+        "contribution": 0.0
+      },
+      "job_level_5": {
+        "value": 0.0,
+        "importance": 0.0010570358351244071,
+        "contribution": 0.0
+      },
+      "overtime_No": {
+        "value": 0.0,
+        "importance": 0.06380833457975899,
+        "contribution": 0.0
+      },
+      "overtime_Yes": {
+        "value": 1.0,
+        "importance": 0.06122703052559626,
+        "contribution": 0.06122703052559626
+      },
+      "marital_status_Divorced": {
+        "value": 0.0,
+        "importance": 0.009889594705502144,
+        "contribution": 0.0
+      },
+      "marital_status_Married": {
+        "value": 0.0,
+        "importance": 0.015152231592034184,
+        "contribution": 0.0
+      },
+      "marital_status_Single": {
+        "value": 1.0,
+        "importance": 0.0341581337976391,
+        "contribution": 0.0341581337976391
+      },
+      "education_field_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0006253861979982298,
+        "contribution": 0.0
+      },
+      "education_field_Life Sciences": {
+        "value": 1.0,
+        "importance": 0.013030504893012457,
+        "contribution": 0.013030504893012457
+      },
+      "education_field_Medical": {
+        "value": 0.0,
+        "importance": 0.013701545350315841,
+        "contribution": 0.0
+      },
+      "education_field_Other": {
+        "value": 0.0,
+        "importance": 0.0011796034990921094,
+        "contribution": 0.0
+      },
+      "education_field_Technical Degree": {
+        "value": 0.0,
+        "importance": 0.003968962113493214,
+        "contribution": 0.0
+      },
+      "job_role_Manager": {
+        "value": 0.0,
+        "importance": 0.0028349261159351666,
+        "contribution": 0.0
+      },
+      "job_role_Manufacturing Director": {
+        "value": 0.0,
+        "importance": 0.005923421592320275,
+        "contribution": 0.0
+      },
+      "job_role_Research Director": {
+        "value": 0.0,
+        "importance": 0.0026510526167533048,
+        "contribution": 0.0
+      },
+      "job_role_Sales Representative": {
+        "value": 0.0,
+        "importance": 0.00437143978336556,
+        "contribution": 0.0
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "salary",
+        "value": 71916.0,
+        "impact": "Augmente le risque",
+        "contribution": 4529.019843763627
+      },
+      {
+        "factor": "MonthlyRate",
+        "value": 19479.0,
+        "impact": "Augmente le risque",
+        "contribution": 723.4721927248235
+      },
+      {
+        "factor": "DailyRate",
+        "value": 1102.0,
+        "impact": "Augmente le risque",
+        "contribution": 48.95225365505821
+      },
+      {
+        "factor": "HourlyRate",
+        "value": 94.0,
+        "impact": "Augmente le risque",
+        "contribution": 3.6920744538689507
+      },
+      {
+        "factor": "age",
+        "value": 41.0,
+        "impact": "Augmente le risque",
+        "contribution": 2.6453761893537786
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_0002",
+    "name": "Employ\u00e9 EMP_0002",
+    "department": "Research & Development",
+    "job_level": "2",
+    "risk_category": "Faible Risque",
+    "risk_score": 0.1286313597948108,
+    "prediction": false,
+    "actual_left": false,
+    "criteria_analysis": {
+      "age": {
+        "value": 49.0,
+        "importance": 0.06452137047204339,
+        "contribution": 3.161547153130126
+      },
+      "salary": {
+        "value": 61560.0,
+        "importance": 0.06297652599927175,
+        "contribution": 3876.8349405151694
+      },
+      "tenure_years": {
+        "value": 10.0,
+        "importance": 0.0655896707543584,
+        "contribution": 0.655896707543584
+      },
+      "environment_satisfaction": {
+        "value": 3.0,
+        "importance": 0.061940702514479556,
+        "contribution": 0.18582210754343867
+      },
+      "years_in_current_role": {
+        "value": 7.0,
+        "importance": 0.052165909929172125,
+        "contribution": 0.36516136950420486
+      },
+      "years_with_curr_manager": {
+        "value": 7.0,
+        "importance": 0.07665530748491775,
+        "contribution": 0.5365871523944242
+      },
+      "total_working_years": {
+        "value": 10.0,
+        "importance": 0.06245704669968503,
+        "contribution": 0.6245704669968503
+      },
+      "percent_salary_hike": {
+        "value": 23.0,
+        "importance": 0.03419062691806729,
+        "contribution": 0.7863844191155477
+      },
+      "stock_option_level": {
+        "value": 1.0,
+        "importance": 0.07936771229590132,
+        "contribution": 0.07936771229590132
+      },
+      "DailyRate": {
+        "value": 279.0,
+        "importance": 0.04442128280858276,
+        "contribution": 12.393537903594591
+      },
+      "HourlyRate": {
+        "value": 61.0,
+        "importance": 0.039277387807116496,
+        "contribution": 2.3959206562341064
+      },
+      "MonthlyRate": {
+        "value": 24907.0,
+        "importance": 0.03714113623516728,
+        "contribution": 925.0742802093114
+      },
+      "department_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0007387767505056217,
+        "contribution": 0.0
+      },
+      "department_Research & Development": {
+        "value": 1.0,
+        "importance": 0.030965721734765653,
+        "contribution": 0.030965721734765653
+      },
+      "job_level_1": {
+        "value": 0.0,
+        "importance": 0.054011618398024375,
+        "contribution": 0.0
+      },
+      "job_level_5": {
+        "value": 0.0,
+        "importance": 0.0010570358351244071,
+        "contribution": 0.0
+      },
+      "overtime_No": {
+        "value": 1.0,
+        "importance": 0.06380833457975899,
+        "contribution": 0.06380833457975899
+      },
+      "overtime_Yes": {
+        "value": 0.0,
+        "importance": 0.06122703052559626,
+        "contribution": 0.0
+      },
+      "marital_status_Divorced": {
+        "value": 0.0,
+        "importance": 0.009889594705502144,
+        "contribution": 0.0
+      },
+      "marital_status_Married": {
+        "value": 1.0,
+        "importance": 0.015152231592034184,
+        "contribution": 0.015152231592034184
+      },
+      "marital_status_Single": {
+        "value": 0.0,
+        "importance": 0.0341581337976391,
+        "contribution": 0.0
+      },
+      "education_field_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0006253861979982298,
+        "contribution": 0.0
+      },
+      "education_field_Life Sciences": {
+        "value": 1.0,
+        "importance": 0.013030504893012457,
+        "contribution": 0.013030504893012457
+      },
+      "education_field_Medical": {
+        "value": 0.0,
+        "importance": 0.013701545350315841,
+        "contribution": 0.0
+      },
+      "education_field_Other": {
+        "value": 0.0,
+        "importance": 0.0011796034990921094,
+        "contribution": 0.0
+      },
+      "education_field_Technical Degree": {
+        "value": 0.0,
+        "importance": 0.003968962113493214,
+        "contribution": 0.0
+      },
+      "job_role_Manager": {
+        "value": 0.0,
+        "importance": 0.0028349261159351666,
+        "contribution": 0.0
+      },
+      "job_role_Manufacturing Director": {
+        "value": 0.0,
+        "importance": 0.005923421592320275,
+        "contribution": 0.0
+      },
+      "job_role_Research Director": {
+        "value": 0.0,
+        "importance": 0.0026510526167533048,
+        "contribution": 0.0
+      },
+      "job_role_Sales Representative": {
+        "value": 0.0,
+        "importance": 0.00437143978336556,
+        "contribution": 0.0
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "salary",
+        "value": 61560.0,
+        "impact": "Augmente le risque",
+        "contribution": 3876.8349405151694
+      },
+      {
+        "factor": "MonthlyRate",
+        "value": 24907.0,
+        "impact": "Augmente le risque",
+        "contribution": 925.0742802093114
+      },
+      {
+        "factor": "DailyRate",
+        "value": 279.0,
+        "impact": "Augmente le risque",
+        "contribution": 12.393537903594591
+      },
+      {
+        "factor": "age",
+        "value": 49.0,
+        "impact": "Augmente le risque",
+        "contribution": 3.161547153130126
+      },
+      {
+        "factor": "HourlyRate",
+        "value": 61.0,
+        "impact": "Augmente le risque",
+        "contribution": 2.3959206562341064
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_1022",
+    "name": "Employ\u00e9 EMP_1022",
+    "department": "Research & Development",
+    "job_level": "2",
+    "risk_category": "Risque Moyen",
+    "risk_score": 0.21120360890582918,
+    "prediction": false,
+    "actual_left": false,
+    "criteria_analysis": {
+      "age": {
+        "value": 48.0,
+        "importance": 0.06452137047204339,
+        "contribution": 3.0970257826580827
+      },
+      "salary": {
+        "value": 50880.0,
+        "importance": 0.06297652599927175,
+        "contribution": 3204.245642842947
+      },
+      "tenure_years": {
+        "value": 2.0,
+        "importance": 0.0655896707543584,
+        "contribution": 0.1311793415087168
+      },
+      "environment_satisfaction": {
+        "value": 1.0,
+        "importance": 0.061940702514479556,
+        "contribution": 0.061940702514479556
+      },
+      "years_in_current_role": {
+        "value": 2.0,
+        "importance": 0.052165909929172125,
+        "contribution": 0.10433181985834425
+      },
+      "years_with_curr_manager": {
+        "value": 2.0,
+        "importance": 0.07665530748491775,
+        "contribution": 0.1533106149698355
+      },
+      "total_working_years": {
+        "value": 19.0,
+        "importance": 0.06245704669968503,
+        "contribution": 1.1866838872940155
+      },
+      "percent_salary_hike": {
+        "value": 13.0,
+        "importance": 0.03419062691806729,
+        "contribution": 0.4444781499348748
+      },
+      "stock_option_level": {
+        "value": 0.0,
+        "importance": 0.07936771229590132,
+        "contribution": 0.0
+      },
+      "DailyRate": {
+        "value": 277.0,
+        "importance": 0.04442128280858276,
+        "contribution": 12.304695337977424
+      },
+      "HourlyRate": {
+        "value": 97.0,
+        "importance": 0.039277387807116496,
+        "contribution": 3.8099066172903
+      },
+      "MonthlyRate": {
+        "value": 13119.0,
+        "importance": 0.03714113623516728,
+        "contribution": 487.25456626915957
+      },
+      "department_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0007387767505056217,
+        "contribution": 0.0
+      },
+      "department_Research & Development": {
+        "value": 1.0,
+        "importance": 0.030965721734765653,
+        "contribution": 0.030965721734765653
+      },
+      "job_level_1": {
+        "value": 0.0,
+        "importance": 0.054011618398024375,
+        "contribution": 0.0
+      },
+      "job_level_5": {
+        "value": 0.0,
+        "importance": 0.0010570358351244071,
+        "contribution": 0.0
+      },
+      "overtime_No": {
+        "value": 1.0,
+        "importance": 0.06380833457975899,
+        "contribution": 0.06380833457975899
+      },
+      "overtime_Yes": {
+        "value": 0.0,
+        "importance": 0.06122703052559626,
+        "contribution": 0.0
+      },
+      "marital_status_Divorced": {
+        "value": 0.0,
+        "importance": 0.009889594705502144,
+        "contribution": 0.0
+      },
+      "marital_status_Married": {
+        "value": 0.0,
+        "importance": 0.015152231592034184,
+        "contribution": 0.0
+      },
+      "marital_status_Single": {
+        "value": 1.0,
+        "importance": 0.0341581337976391,
+        "contribution": 0.0341581337976391
+      },
+      "education_field_Human Resources": {
+        "value": 0.0,
+        "importance": 0.0006253861979982298,
+        "contribution": 0.0
+      },
+      "education_field_Life Sciences": {
+        "value": 1.0,
+        "importance": 0.013030504893012457,
+        "contribution": 0.013030504893012457
+      },
+      "education_field_Medical": {
+        "value": 0.0,
+        "importance": 0.013701545350315841,
+        "contribution": 0.0
+      },
+      "education_field_Other": {
+        "value": 0.0,
+        "importance": 0.0011796034990921094,
+        "contribution": 0.0
+      },
+      "education_field_Technical Degree": {
+        "value": 0.0,
+        "importance": 0.003968962113493214,
+        "contribution": 0.0
+      },
+      "job_role_Manager": {
+        "value": 0.0,
+        "importance": 0.0028349261159351666,
+        "contribution": 0.0
+      },
+      "job_role_Manufacturing Director": {
+        "value": 0.0,
+        "importance": 0.005923421592320275,
+        "contribution": 0.0
+      },
+      "job_role_Research Director": {
+        "value": 0.0,
+        "importance": 0.0026510526167533048,
+        "contribution": 0.0
+      },
+      "job_role_Sales Representative": {
+        "value": 0.0,
+        "importance": 0.00437143978336556,
+        "contribution": 0.0
+      }
+    },
+    "key_factors": [
+      {
+        "factor": "salary",
+        "value": 50880.0,
+        "impact": "Augmente le risque",
+        "contribution": 3204.245642842947
+      },
+      {
+        "factor": "MonthlyRate",
+        "value": 13119.0,
+        "impact": "Augmente le risque",
+        "contribution": 487.25456626915957
+      },
+      {
+        "factor": "DailyRate",
+        "value": 277.0,
+        "impact": "Augmente le risque",
+        "contribution": 12.304695337977424
+      },
+      {
+        "factor": "HourlyRate",
+        "value": 97.0,
+        "impact": "Augmente le risque",
+        "contribution": 3.8099066172903
+      },
+      {
+        "factor": "age",
+        "value": 48.0,
+        "impact": "Augmente le risque",
+        "contribution": 3.0970257826580827
+      }
+    ]
+  }
+]

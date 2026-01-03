@@ -1,0 +1,343 @@
+{
+  "feature_importance": [
+    {
+      "feature": "stock_option_level",
+      "importance": 7.936771229590132
+    },
+    {
+      "feature": "years_with_curr_manager",
+      "importance": 7.665530748491775
+    },
+    {
+      "feature": "tenure_years",
+      "importance": 6.55896707543584
+    },
+    {
+      "feature": "age",
+      "importance": 6.452137047204339
+    },
+    {
+      "feature": "overtime_No",
+      "importance": 6.380833457975898
+    },
+    {
+      "feature": "salary",
+      "importance": 6.297652599927176
+    },
+    {
+      "feature": "total_working_years",
+      "importance": 6.245704669968503
+    },
+    {
+      "feature": "environment_satisfaction",
+      "importance": 6.194070251447956
+    },
+    {
+      "feature": "overtime_Yes",
+      "importance": 6.122703052559626
+    },
+    {
+      "feature": "job_level_1",
+      "importance": 5.4011618398024375
+    },
+    {
+      "feature": "years_in_current_role",
+      "importance": 5.2165909929172125
+    },
+    {
+      "feature": "DailyRate",
+      "importance": 4.4421282808582765
+    },
+    {
+      "feature": "HourlyRate",
+      "importance": 3.9277387807116497
+    },
+    {
+      "feature": "MonthlyRate",
+      "importance": 3.714113623516728
+    },
+    {
+      "feature": "percent_salary_hike",
+      "importance": 3.419062691806729
+    },
+    {
+      "feature": "marital_status_Single",
+      "importance": 3.41581337976391
+    },
+    {
+      "feature": "department_Research & Development",
+      "importance": 3.096572173476565
+    },
+    {
+      "feature": "marital_status_Married",
+      "importance": 1.5152231592034184
+    },
+    {
+      "feature": "education_field_Medical",
+      "importance": 1.3701545350315842
+    },
+    {
+      "feature": "education_field_Life Sciences",
+      "importance": 1.3030504893012458
+    },
+    {
+      "feature": "marital_status_Divorced",
+      "importance": 0.9889594705502145
+    },
+    {
+      "feature": "job_role_Manufacturing Director",
+      "importance": 0.5923421592320275
+    },
+    {
+      "feature": "job_role_Sales Representative",
+      "importance": 0.43714397833655605
+    },
+    {
+      "feature": "education_field_Technical Degree",
+      "importance": 0.3968962113493214
+    },
+    {
+      "feature": "job_role_Manager",
+      "importance": 0.2834926115935167
+    },
+    {
+      "feature": "job_role_Research Director",
+      "importance": 0.2651052616753305
+    },
+    {
+      "feature": "education_field_Other",
+      "importance": 0.11796034990921095
+    },
+    {
+      "feature": "job_level_5",
+      "importance": 0.10570358351244072
+    },
+    {
+      "feature": "department_Human Resources",
+      "importance": 0.07387767505056217
+    },
+    {
+      "feature": "education_field_Human Resources",
+      "importance": 0.06253861979982298
+    }
+  ],
+  "criteria_categories": {
+    "Salaire et Compensation": [
+      [
+        "salary",
+        6.297652599927176
+      ],
+      [
+        "percent_salary_hike",
+        3.419062691806729
+      ]
+    ],
+    "Performance et Objectifs": [],
+    "Formation et Developpement": [
+      [
+        "department_Research & Development",
+        3.096572173476565
+      ]
+    ],
+    "Charge de Travail": [
+      [
+        "overtime_No",
+        6.380833457975898
+      ],
+      [
+        "overtime_Yes",
+        6.122703052559626
+      ]
+    ],
+    "Satisfaction et Engagement": [
+      [
+        "environment_satisfaction",
+        6.194070251447956
+      ]
+    ],
+    "Relation Manager": [
+      [
+        "years_with_curr_manager",
+        7.665530748491775
+      ],
+      [
+        "job_role_Manager",
+        0.2834926115935167
+      ]
+    ],
+    "Equilibre Vie/Travail": [],
+    "Carriere et Progression": [],
+    "Absences et Presenteisme": [],
+    "Anciennete et Risque": [
+      [
+        "tenure_years",
+        6.55896707543584
+      ]
+    ],
+    "Concurrence et Marche": [],
+    "Augmentations et Evolution": [],
+    "Image de l Entreprise": [],
+    "Autres": [
+      [
+        "stock_option_level",
+        7.936771229590132
+      ],
+      [
+        "age",
+        6.452137047204339
+      ],
+      [
+        "total_working_years",
+        6.245704669968503
+      ],
+      [
+        "job_level_1",
+        5.4011618398024375
+      ],
+      [
+        "years_in_current_role",
+        5.2165909929172125
+      ],
+      [
+        "DailyRate",
+        4.4421282808582765
+      ],
+      [
+        "HourlyRate",
+        3.9277387807116497
+      ],
+      [
+        "MonthlyRate",
+        3.714113623516728
+      ],
+      [
+        "marital_status_Single",
+        3.41581337976391
+      ],
+      [
+        "marital_status_Married",
+        1.5152231592034184
+      ],
+      [
+        "education_field_Medical",
+        1.3701545350315842
+      ],
+      [
+        "education_field_Life Sciences",
+        1.3030504893012458
+      ],
+      [
+        "marital_status_Divorced",
+        0.9889594705502145
+      ],
+      [
+        "job_role_Manufacturing Director",
+        0.5923421592320275
+      ],
+      [
+        "job_role_Sales Representative",
+        0.43714397833655605
+      ],
+      [
+        "education_field_Technical Degree",
+        0.3968962113493214
+      ],
+      [
+        "job_role_Research Director",
+        0.2651052616753305
+      ],
+      [
+        "education_field_Other",
+        0.11796034990921095
+      ],
+      [
+        "job_level_5",
+        0.10570358351244072
+      ],
+      [
+        "department_Human Resources",
+        0.07387767505056217
+      ],
+      [
+        "education_field_Human Resources",
+        0.06253861979982298
+      ]
+    ]
+  },
+  "model_performance": {
+    "best_model": "RandomForest",
+    "best_threshold": 0.314002354420883,
+    "test_set": {
+      "accuracy": 0.7653061224489796,
+      "roc_auc": 0.791024205357912,
+      "precision": 0.3829787234042553,
+      "recall": 0.7659574468085106,
+      "f1_score": 0.5106382978723404
+    },
+    "train_set": {
+      "accuracy": 0.9200477326968973,
+      "roc_auc": 0.9939633124614163,
+      "precision": 0.8381995133819952,
+      "recall": 0.9985507246376811,
+      "f1_score": 0.9113756613756614
+    },
+    "cross_validation": {
+      "accuracy": {
+        "mean": 0.8699076048329781,
+        "std": 0.023176822985827357,
+        "scores": [
+          0.9047619047619048,
+          0.8746268656716418,
+          0.8626865671641791,
+          0.8746268656716418,
+          0.8328358208955224
+        ]
+      },
+      "f1_score": {
+        "mean": 0.8375036920236191,
+        "std": 0.025746589213602313,
+        "scores": [
+          0.8778625954198473,
+          0.8359375,
+          0.8333333333333334,
+          0.8432835820895522,
+          0.7971014492753623
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.937537257367317,
+        "std": 0.015428990338177335,
+        "scores": [
+          0.9533377250768554,
+          0.9330169940410505,
+          0.9469947767233134,
+          0.9447141911277863,
+          0.909622599867579
+        ]
+      }
+    },
+    "accuracy": 0.7653061224489796,
+    "roc_auc": 0.791024205357912,
+    "precision": 0.3829787234042553,
+    "recall": 0.7659574468085106,
+    "f1_score": 0.5106382978723404,
+    "all_models": {
+      "RandomForest": {
+        "roc_auc": 0.791024205357912,
+        "f1_optimized": 0.5106382978723404,
+        "best_threshold": 0.314002354420883
+      },
+      "XGBoost": {
+        "roc_auc": 0.7909380652941683,
+        "f1_optimized": 0.48,
+        "best_threshold": 0.1129302829504013
+      },
+      "LightGBM": {
+        "roc_auc": 0.7870617624257041,
+        "f1_optimized": 0.48175182481751827,
+        "best_threshold": 0.1296852218737563
+      }
+    }
+  },
+  "timestamp": "2025-12-19T20:07:37.898977"
+}
