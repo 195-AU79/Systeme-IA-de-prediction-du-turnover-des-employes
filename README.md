@@ -2,18 +2,6 @@
 
 Un système complet d'intelligence artificielle pour prédire le risque de départ (turnover) des employés, avec analyse des critères clés, dashboard interactif et recommandations d'actions de rétention.
 
-## 📋 Table des matières
-
-- [Description](#description)
-- [Fonctionnalités](#fonctionnalités)
-- [Installation](#installation)
-- [Structure du projet](#structure-du-projet)
-- [Utilisation](#utilisation)
-- [Configuration](#configuration)
-- [Documentation](#documentation)
-- [Modèles et Métriques](#modèles-et-métriques)
-- [Technologies utilisées](#technologies-utilisées)
-
 ## 🎯 Description
 
 Ce système utilise des algorithmes de machine learning avancés (Random Forest, XGBoost, LightGBM) pour analyser les données RH et prédire la probabilité qu'un employé quitte l'entreprise. Il identifie les facteurs de risque clés et propose des actions de rétention personnalisées.
